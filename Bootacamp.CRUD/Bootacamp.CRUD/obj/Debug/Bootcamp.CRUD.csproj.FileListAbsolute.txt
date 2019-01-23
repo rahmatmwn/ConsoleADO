@@ -1,4 +1,3 @@
-C:\Users\RahmatMwn\Documents\Visual Studio 2015\Projects\Bootacamp.CRUD\Bootacamp.CRUD\obj\Debug\Bootcamp.CRUD.csprojResolveAssemblyReference.cache
 C:\Users\RahmatMwn\Documents\Visual Studio 2015\Projects\Bootacamp.CRUD\Bootacamp.CRUD\obj\Debug\Bootacamp.CRUD.exe
 C:\Users\RahmatMwn\Documents\Visual Studio 2015\Projects\Bootacamp.CRUD\Bootacamp.CRUD\obj\Debug\Bootacamp.CRUD.pdb
 C:\Users\RahmatMwn\Documents\Visual Studio 2015\Projects\Bootacamp.CRUD\Bootacamp.CRUD\bin\Debug\Bootacamp.CRUD.exe.config

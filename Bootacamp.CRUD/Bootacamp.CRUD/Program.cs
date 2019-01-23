@@ -13,28 +13,37 @@ namespace Bootcamp.CRUD
     {
         static void Main(string[] args)
         {
-
-            char pilihan;
-            Console.WriteLine("=============== Pilih Data ==============");
-            Console.WriteLine("1. Supplier");
-            Console.WriteLine("2. Item");
-            Console.WriteLine("============================================");
-            Console.Write("Pilihan mu : ");
-            pilihan = Convert.ToChar(Console.ReadLine());
-            switch (pilihan) {
-                case '1':
-                    ManageSupplier supplier = new ManageSupplier();
-                    supplier.Supplier();
-                    break;
-                case '2':
-                    ManageItem item = new ManageItem();
-                    item.Item();
-                    break;
-                default:
-                    Console.Write("Pilihan tidak ada!");
-                    Console.Read();
-                    break;
-        }
+            string lagi = "";
+            do
+            {
+                char pilihan;
+                Console.WriteLine("=============== Pilih Data =================");
+                Console.WriteLine("1. Supplier");
+                Console.WriteLine("2. Item");
+                Console.WriteLine("============================================");
+                Console.Write("Pilihan mu : ");
+                pilihan = Convert.ToChar(Console.ReadLine());
+                switch (pilihan)
+                {
+                    case '1':
+                        ManageSupplier supplier = new ManageSupplier();
+                        supplier.Supplier();
+                        Console.Write("Kembali ke Menu Utama? (y/n) : ");
+                        lagi = Console.ReadLine();
+                        break;
+                    case '2':
+                        ManageItem item = new ManageItem();
+                        item.Item();
+                        Console.Write("Kembali ke Menu Utama? (y/n) : ");
+                        lagi = Console.ReadLine();
+                        break;
+                    default:
+                        Console.WriteLine("Pilihan tidak ada!");
+                        Console.Write("Kembali ke Menu Utama? (y/n) : ");
+                        lagi = Console.ReadLine();
+                        break;
+                }
+            } while (lagi == "y");
         }
     
     }
