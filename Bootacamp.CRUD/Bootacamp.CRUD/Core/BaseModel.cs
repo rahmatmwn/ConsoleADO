@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.ComponentModel.DataAnnotations;
 
-namespace Bootacamp.CRUD.Core
+namespace Bootcamp.CRUD.Core
 {
     public class BaseModel
     {
@@ -14,7 +14,6 @@ namespace Bootacamp.CRUD.Core
         public DateTimeOffset CreateDate { get; set; }
         public DateTimeOffset UpdateDate { get; set; }
         public DateTimeOffset DeleteDate { get; set; }
-
         public Boolean IsDelete { get; set; }
     }
 }

@@ -1,11 +1,11 @@
-﻿using Bootacamp.CRUD.Core;
+﻿using Bootcamp.CRUD.Core;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Bootacamp.CRUD.Model
+namespace Bootcamp.CRUD.Model
 {
     public class Supplier : BaseModel
     {

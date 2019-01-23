@@ -1,0 +1,12 @@
+C:\Users\RahmatMwn\Documents\Visual Studio 2015\Projects\Bootacamp.CRUD\Bootacamp.CRUD\obj\Debug\Bootcamp.CRUD.csprojResolveAssemblyReference.cache
+C:\Users\RahmatMwn\Documents\Visual Studio 2015\Projects\Bootacamp.CRUD\Bootacamp.CRUD\obj\Debug\Bootacamp.CRUD.exe
+C:\Users\RahmatMwn\Documents\Visual Studio 2015\Projects\Bootacamp.CRUD\Bootacamp.CRUD\obj\Debug\Bootacamp.CRUD.pdb
+C:\Users\RahmatMwn\Documents\Visual Studio 2015\Projects\Bootacamp.CRUD\Bootacamp.CRUD\bin\Debug\Bootacamp.CRUD.exe.config
+C:\Users\RahmatMwn\Documents\Visual Studio 2015\Projects\Bootacamp.CRUD\Bootacamp.CRUD\bin\Debug\Bootacamp.CRUD.exe
+C:\Users\RahmatMwn\Documents\Visual Studio 2015\Projects\Bootacamp.CRUD\Bootacamp.CRUD\bin\Debug\Bootacamp.CRUD.pdb
+C:\Users\RahmatMwn\Documents\Visual Studio 2015\Projects\Bootacamp.CRUD\Bootacamp.CRUD\bin\Debug\EntityFramework.dll
+C:\Users\RahmatMwn\Documents\Visual Studio 2015\Projects\Bootacamp.CRUD\Bootacamp.CRUD\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\RahmatMwn\Documents\Visual Studio 2015\Projects\Bootacamp.CRUD\Bootacamp.CRUD\bin\Debug\EntityFramework.xml
+C:\Users\RahmatMwn\Documents\Visual Studio 2015\Projects\Bootacamp.CRUD\Bootacamp.CRUD\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\RahmatMwn\Documents\Visual Studio 2015\Projects\Bootacamp.CRUD\Bootacamp.CRUD\obj\Debug\Bootcamp.CRUD.Migrations.addItemSupplier.resources
+C:\Users\RahmatMwn\Documents\Visual Studio 2015\Projects\Bootacamp.CRUD\Bootacamp.CRUD\obj\Debug\Bootcamp.CRUD.csproj.GenerateResource.Cache

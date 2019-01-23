@@ -1,18 +1,18 @@
-namespace Bootacamp.CRUD.Migrations
+namespace Bootcamp.CRUD.Migrations
 {
     using System;
     using System.Data.Entity;
     using System.Data.Entity.Migrations;
     using System.Linq;
 
-    internal sealed class Configuration : DbMigrationsConfiguration<Bootacamp.CRUD.Context.MyContext>
+    internal sealed class Configuration : DbMigrationsConfiguration<Bootcamp.CRUD.Context.MyContext>
     {
         public Configuration()
         {
             AutomaticMigrationsEnabled = false;
         }
 
-        protected override void Seed(Bootacamp.CRUD.Context.MyContext context)
+        protected override void Seed(Bootcamp.CRUD.Context.MyContext context)
         {
             //  This method will be called after migrating to the latest version.
 
