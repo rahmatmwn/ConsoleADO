@@ -12,3 +12,4 @@ C:\Users\RahmatMwn\Documents\Visual Studio 2015\Projects\Bootacamp.CRUD\Bootacam
 C:\Users\RahmatMwn\Documents\Visual Studio 2015\Projects\Bootacamp.CRUD\Bootacamp.CRUD\obj\Debug\Bootcamp.CRUD.csprojResolveAssemblyReference.cache
 C:\Users\RahmatMwn\Documents\Visual Studio 2015\Projects\Bootacamp.CRUD\Bootacamp.CRUD\obj\Debug\Bootcamp.CRUD.Migrations.addSupplierId.resources
 C:\Users\RahmatMwn\Documents\Visual Studio 2015\Projects\Bootacamp.CRUD\Bootacamp.CRUD\obj\Debug\Bootcamp.CRUD.Migrations.AddFK.resources
+C:\Users\RahmatMwn\Documents\Visual Studio 2015\Projects\Bootacamp.CRUD\Bootacamp.CRUD\obj\Debug\Bootcamp.CRUD.Migrations.AddTransactions.resources

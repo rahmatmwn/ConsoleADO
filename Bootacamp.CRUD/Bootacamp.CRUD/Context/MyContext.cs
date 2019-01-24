@@ -1,4 +1,5 @@
 ﻿
+using Bootacamp.CRUD.Model;
 using Bootcamp.CRUD.Model;
 using System;
 using System.Collections.Generic;
@@ -15,5 +16,9 @@ namespace Bootcamp.CRUD.Context
 
         public DbSet<Supplier> Suppliers { get;  set;}
         public DbSet<Item> Items { get; set; }
+
+        public DbSet<Transaction> Transactions { get; set; }
+        public DbSet<TransactionItem> TransactionItems { get; set; }
+
     }
 }

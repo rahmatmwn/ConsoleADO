@@ -56,6 +56,8 @@
     <Compile Include="Core\BaseModel.cs" />
     <Compile Include="Manage Data\ManageItem.cs" />
     <Compile Include="Manage Data\ManageSupplier.cs" />
+    <Compile Include="Manage Data\ManageTransaction.cs" />
+    <Compile Include="Manage Data\ManageTransactionItem.cs" />
     <Compile Include="Migrations\201901231315448_addItemSupplier.cs" />
     <Compile Include="Migrations\201901231315448_addItemSupplier.Designer.cs">
       <DependentUpon>201901231315448_addItemSupplier.cs</DependentUpon>
@@ -68,9 +70,15 @@
     <Compile Include="Migrations\201901240213536_AddFK.Designer.cs">
       <DependentUpon>201901240213536_AddFK.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201901240410594_AddTransactions.cs" />
+    <Compile Include="Migrations\201901240410594_AddTransactions.Designer.cs">
+      <DependentUpon>201901240410594_AddTransactions.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Model\Item.cs" />
     <Compile Include="Model\Supplier.cs" />
+    <Compile Include="Model\Transaction.cs" />
+    <Compile Include="Model\TransactionItem.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -87,6 +95,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201901240213536_AddFK.resx">
       <DependentUpon>201901240213536_AddFK.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201901240410594_AddTransactions.resx">
+      <DependentUpon>201901240410594_AddTransactions.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

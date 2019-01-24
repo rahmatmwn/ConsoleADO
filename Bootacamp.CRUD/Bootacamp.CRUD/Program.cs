@@ -20,6 +20,7 @@ namespace Bootcamp.CRUD
                 Console.WriteLine("=============== Pilih Data =================");
                 Console.WriteLine("1. Supplier");
                 Console.WriteLine("2. Item");
+                Console.WriteLine("3. Transaction");
                 Console.WriteLine("============================================");
                 Console.Write("Pilihan mu : ");
                 pilihan = Convert.ToChar(Console.ReadLine());
@@ -34,6 +35,14 @@ namespace Bootcamp.CRUD
                     case '2':
                         ManageItem item = new ManageItem();
                         item.Item();
+                        Console.Write("Kembali ke Menu Utama? (y/n) : ");
+                        lagi = Console.ReadLine();
+                        break;
+                    case '3':
+                        ManageTransactionItem tranItem = new ManageTransactionItem();
+                        ManageTransaction tran = new ManageTransaction();
+                        tran.Transact();
+                        tranItem.TranItem();
                         Console.Write("Kembali ke Menu Utama? (y/n) : ");
                         lagi = Console.ReadLine();
                         break;
