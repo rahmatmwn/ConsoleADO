@@ -38,19 +38,41 @@ namespace Bootacamp.CRUD.Manage_Data
                         item.Quantity = Convert.ToInt16(Console.ReadLine());
                         item.DateIn = DateTimeOffset.Now.LocalDateTime;
                         item.CreateDate = DateTimeOffset.Now.LocalDateTime;
+                        Console.Write("Insert ID of Supplier : ");
+                        int? idSupplier=Convert.ToInt16(Console.ReadLine());
 
-                        _context.Items.Add(item);
-                        result = _context.SaveChanges();
-                        if (result > 0)
+                        if (idSupplier == null)
                         {
-                            Console.WriteLine("Insert Successfully");
+                            Console.Write("Please insert supplier ID " + idSupplier);
+                            Console.Read();
                         }
                         else
                         {
-                            Console.WriteLine("Insert Failed");
+                            var getSupplier = _context.Suppliers.Find((idSupplier));
+                            if (getSupplier==null)
+                            {
+                                Console.Write("We don't have Id : " + idSupplier);
+                                Console.Read(); 
+                            }
+                            else
+                            {
+                                item.Suppliers = getSupplier;
+                                _context.Items.Add(item);
+                                result = _context.SaveChanges();
+                                if (result > 0)
+                                {
+                                    Console.WriteLine("Insert Successfully");
+                                }
+                                else
+                                {
+                                    Console.WriteLine("Insert Failed");
+                                }
+                                
+                            }
+                            Console.Write("Kembali Manage Data? (y/n) : ");
+                            lagi = Console.ReadLine();
                         }
-                        Console.Write("Kembali Manage Data? (y/n) : ");
-                        lagi=Console.ReadLine();
+                        
                         break;
                     case '2':
                         Console.Write("Insert Id to Update Data : ");
@@ -62,23 +84,48 @@ namespace Bootacamp.CRUD.Manage_Data
                         }
                         else
                         {
+                            
+
                             Console.Write("Insert Name of Item : ");
                             get.Name = Console.ReadLine();
                             Console.Write("Insert Quantity of Item : ");
                             get.Quantity = Convert.ToInt16(Console.ReadLine());
                             get.UpdateDate = DateTimeOffset.Now.LocalDateTime;
-                            result = _context.SaveChanges();
-                            if (result > 0)
+                            Console.Write("Insert ID of Supplier : ");
+                            int? Supplier = Convert.ToInt16(Console.ReadLine());
+
+                            if (Supplier == null)
                             {
-                                Console.WriteLine("Update Successfully");
+                                Console.WriteLine("Please insert supplier ID " + Supplier);
                             }
                             else
                             {
-                                Console.WriteLine("Update Failed");
-                            }
+                                var getSupplier = _context.Suppliers.Find((Supplier));
+                                if (getSupplier == null)
+                                {
+                                    Console.WriteLine("We don't have Id : " + Supplier);
+                                }
+                                else
+                                {
+                                    get.Suppliers = getSupplier;
+                                    result = _context.SaveChanges();
+                                    if (result > 0)
+                                    {
+                                        Console.WriteLine("Update Successfully");
+                                    }
+                                    else
+                                    {
+                                        Console.WriteLine("Update Failed");
+                                    }
+
+                                }
+                                
+                            }   
                         }
+
                         Console.Write("Kembali Manage Data? (y/n) : ");
                         lagi = Console.ReadLine();
+
                         break;
                     case '3':
                         Console.Write("Insert Id to Delete Data : ");
@@ -101,8 +148,10 @@ namespace Bootacamp.CRUD.Manage_Data
                                 Console.WriteLine("Delete Failed");
                             }
                         }
+
                         Console.Write("Kembali Manage Data? (y/n) : ");
                         lagi = Console.ReadLine().ToString();
+
                         break;
                     case '4':
                         var getDatatoDisplay = _context.Items.Where(x => x.IsDelete == false).ToList();
@@ -118,6 +167,7 @@ namespace Bootacamp.CRUD.Manage_Data
                                 Console.WriteLine("Name      : " + tampilin.Name);
                                 Console.WriteLine("Quantity  : " + tampilin.Quantity);
                                 Console.WriteLine("Date In   : " + tampilin.DateIn);
+                                Console.WriteLine("Supplier   : " + tampilin.Suppliers.Name);
                                 Console.WriteLine("============================================");
                             }
                             Console.WriteLine("Total Item : " + getDatatoDisplay.Count);

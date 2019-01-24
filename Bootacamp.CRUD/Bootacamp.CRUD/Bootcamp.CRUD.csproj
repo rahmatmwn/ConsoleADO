@@ -60,6 +60,14 @@
     <Compile Include="Migrations\201901231315448_addItemSupplier.Designer.cs">
       <DependentUpon>201901231315448_addItemSupplier.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201901231537533_addSupplierId.cs" />
+    <Compile Include="Migrations\201901231537533_addSupplierId.Designer.cs">
+      <DependentUpon>201901231537533_addSupplierId.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201901240213536_AddFK.cs" />
+    <Compile Include="Migrations\201901240213536_AddFK.Designer.cs">
+      <DependentUpon>201901240213536_AddFK.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Model\Item.cs" />
     <Compile Include="Model\Supplier.cs" />
@@ -73,6 +81,12 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201901231315448_addItemSupplier.resx">
       <DependentUpon>201901231315448_addItemSupplier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201901231537533_addSupplierId.resx">
+      <DependentUpon>201901231537533_addSupplierId.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201901240213536_AddFK.resx">
+      <DependentUpon>201901240213536_AddFK.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
