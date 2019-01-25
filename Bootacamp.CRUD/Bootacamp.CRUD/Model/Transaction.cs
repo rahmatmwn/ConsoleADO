@@ -9,6 +9,7 @@ namespace Bootacamp.CRUD.Model
 {
     public class Transaction : BaseModel
     {
+
         public DateTimeOffset TransactionDate { get; set; }
     }
 }

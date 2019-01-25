@@ -7,9 +7,6 @@ C:\Users\RahmatMwn\Documents\Visual Studio 2015\Projects\Bootacamp.CRUD\Bootacam
 C:\Users\RahmatMwn\Documents\Visual Studio 2015\Projects\Bootacamp.CRUD\Bootacamp.CRUD\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\RahmatMwn\Documents\Visual Studio 2015\Projects\Bootacamp.CRUD\Bootacamp.CRUD\bin\Debug\EntityFramework.xml
 C:\Users\RahmatMwn\Documents\Visual Studio 2015\Projects\Bootacamp.CRUD\Bootacamp.CRUD\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\RahmatMwn\Documents\Visual Studio 2015\Projects\Bootacamp.CRUD\Bootacamp.CRUD\obj\Debug\Bootcamp.CRUD.Migrations.addItemSupplier.resources
-C:\Users\RahmatMwn\Documents\Visual Studio 2015\Projects\Bootacamp.CRUD\Bootacamp.CRUD\obj\Debug\Bootcamp.CRUD.csproj.GenerateResource.Cache
 C:\Users\RahmatMwn\Documents\Visual Studio 2015\Projects\Bootacamp.CRUD\Bootacamp.CRUD\obj\Debug\Bootcamp.CRUD.csprojResolveAssemblyReference.cache
-C:\Users\RahmatMwn\Documents\Visual Studio 2015\Projects\Bootacamp.CRUD\Bootacamp.CRUD\obj\Debug\Bootcamp.CRUD.Migrations.addSupplierId.resources
-C:\Users\RahmatMwn\Documents\Visual Studio 2015\Projects\Bootacamp.CRUD\Bootacamp.CRUD\obj\Debug\Bootcamp.CRUD.Migrations.AddFK.resources
-C:\Users\RahmatMwn\Documents\Visual Studio 2015\Projects\Bootacamp.CRUD\Bootacamp.CRUD\obj\Debug\Bootcamp.CRUD.Migrations.AddTransactions.resources
+C:\Users\RahmatMwn\Documents\Visual Studio 2015\Projects\Bootacamp.CRUD\Bootacamp.CRUD\obj\Debug\Bootcamp.CRUD.Migrations.addAll.resources
+C:\Users\RahmatMwn\Documents\Visual Studio 2015\Projects\Bootacamp.CRUD\Bootacamp.CRUD\obj\Debug\Bootcamp.CRUD.csproj.GenerateResource.Cache

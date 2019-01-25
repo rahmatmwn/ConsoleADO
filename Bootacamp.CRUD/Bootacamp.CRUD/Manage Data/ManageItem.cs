@@ -36,6 +36,8 @@ namespace Bootacamp.CRUD.Manage_Data
                         item.Name = Console.ReadLine();
                         Console.Write("Insert Quantity of Item : ");
                         item.Quantity = Convert.ToInt16(Console.ReadLine());
+                        Console.Write("Insert Price of Item : ");
+                        item.Price = Convert.ToInt32(Console.ReadLine());
                         item.DateIn = DateTimeOffset.Now.LocalDateTime;
                         item.CreateDate = DateTimeOffset.Now.LocalDateTime;
                         Console.Write("Insert ID of Supplier : ");
@@ -90,6 +92,8 @@ namespace Bootacamp.CRUD.Manage_Data
                             get.Name = Console.ReadLine();
                             Console.Write("Insert Quantity of Item : ");
                             get.Quantity = Convert.ToInt16(Console.ReadLine());
+                            Console.Write("Insert Price of Item : ");
+                            get.Price = Convert.ToInt16(Console.ReadLine());
                             get.UpdateDate = DateTimeOffset.Now.LocalDateTime;
                             Console.Write("Insert ID of Supplier : ");
                             int? Supplier = Convert.ToInt16(Console.ReadLine());

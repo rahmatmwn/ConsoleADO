@@ -22,6 +22,14 @@ namespace Bootacamp.CRUD.Manage_Data
             tran.CreateDate = DateTimeOffset.Now.LocalDateTime;
             _context.Transactions.Add(tran);
             result = _context.SaveChanges();
+            if (result > 0)
+            {
+                Console.WriteLine("Successfully");
+            }
+            else
+            {
+                Console.WriteLine("Failed");
+            }
         }
     }
 }
